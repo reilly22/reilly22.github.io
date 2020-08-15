@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<<<<<<< HEAD
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                    <div class="container">
+                        <nav>
+                              <input type="checkbox" id="nav" class="hidden">
+                              <label for="nav" class="nav-btn">
+                                    <i></i>
+                                    <i></i>
+                                    <i></i>
+                              </label>
+                              <div class="nav-wrapper">
+                                    <ul>
+                                          <li><a href="#">HOME</a></li>
+                                          <li><a href="aboutme.html">ABOUT</a></li>
+                                          <li><a href="projects2.html">PROJECTS</a></li>
+                                          <li><a href="#">FIND ME</a></li>
+                                    </ul>
+                              </div>
+                        </nav>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>Matt Reilly UPLOAD| Industrial Engineer, Data Analytics</title>
+      <title>Matt Reilly | Industrial Engineer, Data Analytics</title>
       <link rel="stylesheet" href="style.css">
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -33,54 +65,170 @@
                         <ul>
                               <li><a href="#">HOME</a></li>
                               <li><a href="aboutme.html">ABOUT</a></li>
-                              <li><a href="projects2.html">PROJECTS</a></li>
+                              <li><a href="https://reilly22.netlify.app/">PROJECTS</a></li>
                               <li><a href="#">FIND ME</a></li>
                         </ul>
+>>>>>>> 9569f1999753d1868005c1a04bf50bffcc04416b
                   </div>
             </nav>
-      </div>
+        </header>
 
-<div class = "container-landing">
-  <img src = "imgs/profile.jpeg" alt = "">
-  <div class = "socials" >
-    <a class = "fa fa-linkedin" href = "https://www.linkedin.com/in/mattreilly22/"></a>
-    <a class = "fa fa-twitter" href = "https://twitter.com/mattreilly22"></a>
-    <a class = "fa fa-github" href = "https://github.com/reilly22"></a>
-  </div>
-</div>
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Matt</span></h1>
+                    <h2 class = "title_info">Industrial Engineer, Data Analytics</h2>
+                </div>
 
-            <!--------------- hero section starts here--------------->
- <div class="hero">
-     <div class="header">
-       <h1 class="line anim-typewriter"> Industrial Engineer, &nbsp;&nbsp;Data Analytics</h1>
-     </div>
- </div>
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
 
- <div class="scroll-down"></div>
-        <!--------------- hero section ends here --------------->
-  <div class ="openbox">
-    <div class = "headerbox">
-      <div class = "strike">
-        <h2> Selected Projects </h2>
-      </div>
-    </div>
-  <div class = "space"></div>
-    <div class = "space-text">
-      <div class="square img_1-1"></div>
-      <div class="square img_1-2"></div>
-      <div class="square img_1-3"></div>
-    </div>
+                <div class="home__img">    
+                    <img src="imgs/profile.jpeg" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Marlon</h2>
+                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Marlon</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p>&#169; 2020 copyright all right reserved</p>
+        </footer>
 
 
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-<script type="text/javascript"></script>
-
-
-</body>
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+    </body>
 </html>
-
