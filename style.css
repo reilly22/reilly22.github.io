@@ -287,7 +287,7 @@ img{
     bottom: 25%;
   }
 
-  .about__container, .skills__container{
+  .about__container {
     grid-template-columns: repeat(2,5fr);
     align-items: center;
     text-align: initial;
@@ -300,12 +300,7 @@ img{
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
   }
-  .contact__form{
-    width: 360px;
-  }
-  .contact__container{
-    justify-items: center;
-  }
+
 }
 
 @media screen and (min-width: 1024px){
@@ -546,6 +541,76 @@ nav ul li a {
   font-weight: 20;
 }
 
+.container {
+  width: 90%;
+  max-width: 120rem;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.timeline ul{
+  border-left: 4px solid #030303;
+  border-radius: .8rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+  position: relative;
+  padding: 5rem;
+  list-style: none;
+  text-align: left;
+  width: 70%;
+  top: 150px;
+}
+
+.timeline h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  opacity: .3;
+}
+
+.timeline .date {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.timeline .date:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.timeline .date::before,
+.timeline .date::after {
+  position: absolute;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+}
+
+.timeline .date::before{
+  margin-left: 5px;
+  content: attr(data-date);
+  left: -21rem;
+  text-align: right;
+  min-width: 14.2rem;
+  font-size: 2vw;
+}
+
+.timeline .date::after {
+  content: '';
+  box-shadow: 0 0 0 4px #0087FF;
+  border-radius: 100%;
+  left: -6rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #313534;
+}
 
 
 
