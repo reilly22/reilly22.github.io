@@ -214,7 +214,6 @@ img{
 
 /* ===== FOOTER =====*/
 .footer{
-  background-color: var(--second-color);
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
@@ -517,6 +516,7 @@ nav ul li a {
 }
 
 .headerbox h2 {
+      letter-spacing: -1px;
       padding-left: 50px;
       font-size: 5vw;
       font-weight: 550;
@@ -551,8 +551,7 @@ nav ul li a {
 
 
 .timeline ul{
-  border-left: 4px solid #030303;
-  border-radius: .8rem;
+  border-left: 4px solid black;
   background-color: rgba(0, 0, 0, 0.05);
   margin: 0 auto;
   position: relative;
@@ -560,7 +559,7 @@ nav ul li a {
   list-style: none;
   text-align: left;
   width: 70%;
-  top: 150px;
+  top: 200px;
 }
 
 .timeline h1 {
@@ -594,9 +593,9 @@ nav ul li a {
 }
 
 .timeline .date::before{
-  margin-left: 5px;
+  margin-left: 10px;
   content: attr(data-date);
-  left: -21rem;
+  left: -20.7rem;
   text-align: right;
   min-width: 14.2rem;
   font-size: 2vw;
@@ -604,12 +603,37 @@ nav ul li a {
 
 .timeline .date::after {
   content: '';
-  box-shadow: 0 0 0 4px #0087FF;
   border-radius: 100%;
-  left: -6rem;
-  height: 1.5rem;
-  width: 1.5rem;
+  left: -5.7rem;
+  height: 1rem;
+  width: 1rem;
   background-color: #313534;
+}
+
+.timeline p3 {
+  font-size: 13px;
+  font-style: italic;
+}
+
+.openbox2 {
+  margin-top: 280px;
+  letter-spacing: -1px;
+  width: 100%;
+  height: 6rem;     
+  background-color: #f2f2f2; 
+  position: absolute;
+}
+
+.end_landing{
+  margin-top: 420px;
+}
+
+.end_landing_content p {
+  width: 70%;
+  font-size: 27px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  line-height: 1.5;
+  margin: 20px;
 }
 
 
