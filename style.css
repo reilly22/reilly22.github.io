@@ -758,13 +758,10 @@ nav ul li a {
   padding:0 20px 20px;
 }
 
-.covid:hover span{
-  display: block;
+.covid:hover{
   opacity: 0.5;
   transition: .9s;
 }
-
-
 
 
 
