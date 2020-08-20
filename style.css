@@ -556,7 +556,7 @@ nav ul li a {
   list-style: none;
   text-align: left;
   width: 70%;
-  top: 200px;
+  top: 80px;
 }
 
 .timeline h1 {
@@ -627,12 +627,13 @@ nav ul li a {
 }
 
 .end_landing{
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 .end_landing_content p {
   width: 70%;
-  font-size: 27px;
+  padding-left: 25px;
+  font-size: 24px;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   line-height: 1.5;
   margin: 20px;
@@ -676,12 +677,20 @@ nav ul li a {
 }
 
 .about_me-img{
-  width: 80rem;
+  margin: 30px;
+  width: 60rem;
   flex: 1;
 }
 
 .about_me-description{
+  margin: 20px;     
   flex: 1;
+}
+
+.about_me_new{
+  font-size: 2.2rem;
+  font-weight: 5;
+  letter-spacing: -2px;
 }
 
 .about_me-description h6{
@@ -698,7 +707,7 @@ nav ul li a {
 }
 
 .header_element{
-  margin-top: 40px;
+  margin-top: 50px;
   letter-spacing: -1px;
   width: 100%;
   height: 6rem;     
@@ -715,12 +724,8 @@ nav ul li a {
 
 }
 
-.about_me_new{
-  font-weight: 1;
-}
 
-
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 800px) {
   .about_me-description p {
     font-size: 15px;
   }
@@ -735,8 +740,14 @@ nav ul li a {
 
   }
 
+  .about_me_new{
+  font-size: 1.3rem;
+  font-weight: 5;
+  letter-spacing: -2px;
+}
+
   .header_element{
-  margin-top: 40px;
+  margin-top: 10px;
   letter-spacing: -1px;
   width: 100%;
   height: 4rem;     
@@ -763,9 +774,127 @@ nav ul li a {
   transition: .9s;
 }
 
+.findme_wrapper{
+  top: 0;
+  width: 100%;
+  height: 700px;
+  background-color: #f2f2f2;
+}
 
 
+.findme_strike {
+  position: relative;
+  top: 40px;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
 
+.findme_content {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  top: 20%;
+  width: 60%;
+  height: 300px;
+  background-color: black;
+
+}
+
+.findme_content h4{
+  font-size: 30px;
+  padding: 10px;
+  text-align: left;
+  color: white;
+
+}
+
+.findme_title {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.tweets{
+  width: 20%;
+}
+
+.education_wrapper {
+
+}
+
+.education_content {
+  padding-top: 10px;
+  width: 70%;
+  padding-left: 35px;
+  font-size: 26px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  line-height: 1.2;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.education_timeline ul{
+  border-top: 0px solid black;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.01);
+  margin: 0 auto;
+  position: relative;
+  list-style: none;
+  width: 70%;
+  top: 20px;
+}
+
+.education_timeline h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  opacity: .3;
+}
+
+.education_timeline .date {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.education_timeline .date:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.education_timeline .date::before,
+.education_timeline .date::after {
+  position: absolute;
+  display: block;
+  top: 90%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+}
+
+.education_timeline .date::before{
+  margin-left: 10px;
+  content: attr(data-date);
+  text-align: right;
+  min-width: 14.2rem;
+  font-size: 2vw;
+}
+
+
+.education_timeline p3 {
+  font-size: 12px;
+  font-style: italic;
+}
+
+@media screen and (max-width: 800px) {
+
+  .education_timeline p3 {
+  font-size: 2vw;
+  font-style: italic;
+  }
+}
 
 
 
