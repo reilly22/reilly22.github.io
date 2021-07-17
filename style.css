@@ -161,7 +161,6 @@ img{
 
 .home__data{
   align-self: center;
-  height: 300px;
 }
 .home__title{
   top: 0;
@@ -189,7 +188,7 @@ img{
 .home__img{
   position: absolute;
   right: 40px;
-  bottom: 30px;
+  bottom: 12%;
   width: 295px;
 }
 
